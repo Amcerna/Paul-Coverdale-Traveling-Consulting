@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, #c5a36e, #8a6a43);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    background: #fdf8f0;
+    padding: 25px;
+    border-left: 5px solid #c5a36e;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #6d5a3d;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 4px solid #6d5a3d;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.expertise, .certifications, .consultative-offerings {
+    background: #e0d6c5;
+    padding: 25px;
+    border-left: 5px solid #6d5a3d;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultative-offerings {
+    background: #f5e8d5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+    line-height: 2;
+}
+
+.program-management {
+    background: #f0e6d2;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-left: 5px solid #6d5a3d;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education {
+    text-align: center;
+    font-weight: bold;
+    padding: 18px;
+    border-left: 5px solid #6d5a3d;
+    background: #fff8e1;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
